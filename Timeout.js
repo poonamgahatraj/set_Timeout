@@ -1,4 +1,4 @@
-console.log("hello")
+/*console.log("hello")
 
 let a=setTimeout(function(){
    console.log("hi,poonam")
@@ -8,3 +8,17 @@ let b=prompt("is your name poonam?")
 if("n"==b){
     clearTimeout(a)
 }
+*/
+
+let a=(x,y)=>{
+console.log("sum of x and y is"+(x+y) )
+}
+
+setTimeout(a,5000,10,20)
+
+let b=(x,y,z)=>{
+    console.log("product od the numbers is"+ " "+(x*y*z))
+}
+
+setTimeout(b,5000,10,20,30)
+
