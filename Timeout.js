@@ -22,10 +22,18 @@ let b=(x,y,z)=>{
 
 setTimeout(b,5000,10,20,30)
 
-*/
+
 
 function division(a,b){
-    console.log("the sivision of the given numbers is "+" "+ (a/b))
+    console.log("the division of the given numbers is "+" "+ (a/b))
 }
 
 setTimeout(division,5000,4,2)
+
+*/
+
+//setIntervel
+
+setInterval(function(){
+    alert("hello,this is setInterval")
+},5000)
