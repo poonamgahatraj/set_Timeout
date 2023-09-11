@@ -8,7 +8,7 @@ let b=prompt("is your name poonam?")
 if("n"==b){
     clearTimeout(a)
 }
-*/
+
 
 let a=(x,y)=>{
 console.log("sum of x and y is"+(x+y) )
@@ -22,3 +22,10 @@ let b=(x,y,z)=>{
 
 setTimeout(b,5000,10,20,30)
 
+*/
+
+function division(a,b){
+    console.log("the sivision of the given numbers is "+" "+ (a/b))
+}
+
+setTimeout(division,5000,4,2)
