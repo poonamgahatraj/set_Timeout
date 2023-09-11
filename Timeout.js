@@ -34,6 +34,17 @@ setTimeout(division,5000,4,2)
 
 //setIntervel
 
+/*
 setInterval(function(){
     alert("hello,this is setInterval")
 },5000)
+
+*/
+
+let a=(x,y)=>{
+    console.log("the sum of the given numbers is " +" "+(x,y))
+}
+
+setInterval(a,3000,10,10)
+
+
